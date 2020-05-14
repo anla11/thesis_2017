@@ -39,6 +39,5 @@ Speech dataset for training is provided by AILab of VNU-HCMUS, includes 39321 au
 ![text_recognition_from_image](images/text_recognition_from_image.png)
 
 ### 3.3 Text recognition from images with DPRN-CTC
-+ Text recognition from speech with DPRN-CTC
 
 ![text_recognition_from_speech](images/text_recognition_from_speech.png)
