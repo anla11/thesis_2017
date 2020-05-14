@@ -2,7 +2,7 @@
 
 New recongintions from broadcast videos: Text recognition from images and audio of videos. 
 
-First, we extracted features from video, then fed them to models. 
+First, we extracted features from video, then fed them to models. The output layer of model is connected with [CTC loss function](https://arxiv.org/abs/1511.07122) to evaluate their performance.
 
 Beside models proposed by previous works, both recognition tasks are solved by using Dilated Pyramid Residual Network (our proposal). See more at [https://doi.org/10.32508/stdjns.v2i5.789](https://doi.org/10.32508/stdjns.v2i5.789)
 
@@ -36,6 +36,9 @@ Speech dataset for training is provided by AILab of VNU-HCMUS, includes 39321 au
 ![rnn-ctc_wer](images/rnn-ctc_wer.png)
 
 ### 3.2 Text recognition from images with DPRN-CTC
+
+The idea is adding [dilated convolution](https://arxiv.org/abs/1511.07122) block into [deep pyramidal residual network](https://arxiv.org/abs/1610.02915).
+
 ![text_recognition_from_image](images/text_recognition_from_image.png)
 
 ### 3.3 Text recognition from images with DPRN-CTC
