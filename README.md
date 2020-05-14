@@ -9,11 +9,11 @@ Beside models proposed by previous works, both recognition tasks are solved by u
 
 ## 1. Dataset preparation
 
-### 1.1 Textbox extraction from frames of videos: 
+### 1.1 Textbox extraction from frames of videos 
 
 To extract textbox region from frames in video, checkout [https://github.com/anvy1102/text-region-extract](https://github.com/anvy1102/text-region-extract). After that, we manually typed labels for textbox extracted from images. 
 
-### 1.2 Features of audios:
+### 1.2 Features of audios
 With audio, we experienced with Log Mel Filter Bank and MFCC from libraries of python (python_speech_features and librosa).
 
 ### 1.3 Dataset size
