@@ -26,6 +26,8 @@ Speech dataset for training is provided by AILab of VNU-HCMUS, includes 39321 au
 
 ## 2. Dilated Pyramid Residual Network
 
+The idea is adding [dilated convolution](https://arxiv.org/abs/1511.07122) block into [deep pyramidal residual network](https://arxiv.org/abs/1610.02915).
+
 ![DPRN_structure](images/DPRN_structure.png)
 
 ## 3. Text recognition
@@ -36,8 +38,6 @@ Speech dataset for training is provided by AILab of VNU-HCMUS, includes 39321 au
 ![rnn-ctc_wer](images/rnn-ctc_wer.png)
 
 ### 3.2 Text recognition from images with DPRN-CTC
-
-The idea is adding [dilated convolution](https://arxiv.org/abs/1511.07122) block into [deep pyramidal residual network](https://arxiv.org/abs/1610.02915).
 
 ![text_recognition_from_image](images/text_recognition_from_image.png)
 
