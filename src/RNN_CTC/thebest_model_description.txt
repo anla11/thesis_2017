@@ -1,0 +1,11 @@
+Net: 
+ Net (
+  (rnn): LSTM(160, 140) - 1 layer
+  (linear): Linear (140 -> 117)
+)
+Loss function: CTC
+
+Data: {images (40 * H), transcript}
+Net Input: {sequence of columns (40 * 4)}
+Optimizer: Adadelta
+Batch_size: 1

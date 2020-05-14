@@ -1,0 +1,10 @@
+Hướng dẫn sử dụng:
+
+Mở running_1.py
+Kéo xuống cuối file dòng 194:
+có dòng train(filename = '../dataset/train.txt', model_name = 'model/rnn_ctc_ada_2_trial', epochs = 60, checkpoint = 1, old_epochs = 0)
+
+Sửa lại filename dẫn tới tập tin train.txt
+Gọi từ cmd như ví dụ dòng 197 - 200
+
+Mở running_2.py và làm tương tự
